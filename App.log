@@ -1,0 +1,25 @@
+2023-06-21 22:41:43,739 - API.py - post - Line: 26 - INFO - Response Status Code 201
+2023-06-21 22:41:43,739 - API.py - post - Line: 28 - INFO - Response Data {
+  "title": "Shresth",
+  "body": "Srivastava",
+  "userId": 12,
+  "id": 101
+}
+2023-06-21 22:41:44,518 - API.py - put - Line: 40 - INFO - Response Status Code 200
+2023-06-21 22:41:44,518 - API.py - put - Line: 42 - INFO - Response Data {
+  "id": 1,
+  "title": "Ansh",
+  "body": "Srivastava",
+  "userId": "12"
+}
+2023-06-21 22:41:44,788 - API.py - fetchID - Line: 54 - INFO - Response Status Code 200
+2023-06-21 22:41:44,789 - API.py - fetchID - Line: 65 - ERROR - Tittle Not Found
+2023-06-21 22:41:44,789 - API.py - fetchID - Line: 70 - ERROR - Tittle Not Found
+Traceback (most recent call last):
+  File "C:\Users\SSRIVASTAVA\OneDrive - e2open, LLC\Desktop\API\API.py", line 66, in fetchID
+    raise Exception("Tittle Not Found")
+Exception: Tittle Not Found
+2023-06-21 22:41:45,068 - API.py - fetchUser - Line: 80 - INFO - Response Status Code 404
+2023-06-21 22:41:45,069 - API.py - fetchUser - Line: 82 - INFO - Response Data {}
+2023-06-21 22:41:45,377 - API.py - fetchComnt - Line: 95 - INFO - Response Status Code 200
+2023-06-21 22:41:45,377 - API.py - fetchComnt - Line: 97 - INFO - Response Data []
