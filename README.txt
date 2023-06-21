@@ -7,3 +7,5 @@
 
 4. "__main__" is been used to call the function and check if they are giving the result and response, 
 also from same file the functions can be imported directly to another file for reuseblity purpose.
+
+5. Please Install Requests,Logging and pytest Library of python before running the file.
