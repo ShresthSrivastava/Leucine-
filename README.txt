@@ -1,7 +1,6 @@
 1. I have created an API.py file where for every Action regarding the API is written in and as different Function, hence it can be used just by calling then and passing the parameters.
 
-2. For Testing these functions I have created TEST.py file which has pytest operations for every function and when executed with the command
-"pytest -v TEST.py >TestLog.txt", it will create a TestLog.txt file giving the result of function passing the cases and failing the cases in a text file.
+2. For Testing these functions I have created TEST.py file which has pytest operations for every function and when navigated to the directory containg the py file and executed with the command "pytest -v TEST.py >TestLog.txt", it will create a TestLog.txt file giving the result of function passing the cases and failing the cases in a text file.
 
 3. Logging has been used in the Python file for a better debugging and quicker turnaround from failure.
 
